@@ -1,0 +1,22 @@
+### Alias list
+
+# Extra Aliases
+alias ..='cd ../'                         # move up one directory
+alias ...='cd ../../'                     # move up two directories
+alias clear='tput reset'                  # reset the terminal display
+
+# ls Command
+alias ls='ls --color=auto'                # list with color output
+alias ll='ls -lh'                         # list with human-readable file size
+alias la='ls -A'                          # list all files except '.' and '..'
+alias lx='ls -X'                          # list sorted by extension
+
+# tree Command
+alias tree='tree -C'                      # show directory tree with color
+
+# grep/egrep Command
+alias grep='grep --color=auto'            # grep with color highlighting
+alias egrep='egrep --color=auto'          # egrep with color highlighting
+
+# ip Command
+alias ip='ip -c'                          # show ip command output with color
