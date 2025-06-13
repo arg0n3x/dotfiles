@@ -93,3 +93,11 @@ inoremap <C-j> <Down>
 inoremap <C-k> <Up>  
 inoremap <C-l> <Right>  
 
+" enable transparency
+hi Normal ctermbg=none guibg=none
+hi NonText ctermbg=none guibg=none
+hi LineNr ctermbg=none guibg=none
+hi SignColumn ctermbg=none guibg=none
+hi VertSplit ctermbg=none guibg=none
+hi StatusLine ctermbg=none guibg=none
+hi StatusLineNC ctermbg=none guibg=none
